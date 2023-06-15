@@ -1,9 +1,7 @@
 SET !ERRORIGNORE YES
 TAG POS=1 TYPE=BUTTON ATTR=TXT:Like
+WAIT SECONDS=1
 TAG SELECTOR="span[class='x3nfvp2']" CONTENT=CLICK
-TAG SELECTOR="div[aria-label='Thích']" CONTENT=CLICK
-TAB T=1
-TAG POS=1 TYPE=BUTTON ATTR=TXT:Nhận<SP>tiền
-SET !ERRORIGNORE NO
-TAB T=2
+TAG SELECTOR="div[class='x9f619 x1n2onr6 x1ja2u2z x78zum5 xdt5ytf x2lah0s x193iq5w x6s0dn4 x1gslohp x12nagc xzboxd6 x14l7nz5'] div[aria-label='Thích']" CONTENT=CLICK
 TAB CLOSE
+TAG POS=1 TYPE=BUTTON ATTR=TXT:Nhận<SP>tiền
