@@ -1,7 +1,7 @@
 SET !ERRORIGNORE YES
 TAG POS=1 TYPE=BUTTON ATTR=ID:reload
 TAG POS=1 TYPE=BUTTON ATTR=TXT:Love
-TAG SELECTOR="span[class='xp7jhwk'] button._abl- svg.x1lliihq.x1n2onr6" CONTENT=CLICK
+TAG SELECTOR="span[class='_aamw'] button._abl- svg.x1lliihq.x1n2onr6" CONTENT=CLICK
 SET !ERRORIGNORE NO
 TAB T=2
 TAB CLOSE
