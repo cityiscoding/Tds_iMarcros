@@ -41,6 +41,16 @@ TAG POS=1 TYPE=BUTTON ATTR=ID:reload
 TAG POS=1 TYPE=BUTTON ATTR=TXT:Love
 TAG POS=1 TYPE=button ATTR=class:tiktok-nmbm7z-ButtonActionItem<SP>edu4zum0
 WAIT SECONDS = 1
+
+
+ex
+TAG POS=1 TYPE=BUTTON ATTR=ID:reload
+TAG POS=1 TYPE=BUTTON ATTR=TXT:Love
+WAIT SECONDS=5
+TAG POS=1 TYPE=button ATTR=class:tiktok-nmbm7z-ButtonActionItem<SP>edu4zum0
+TAG SELECTOR="span[class='xp7jhwk'] button._abl- svg.x1lliihq.x1n2onr6" CONTENT=CLICK
+WAIT SECONDS=15
+TAB CLOSE
 TAB CLOSE
 WAIT SECONDS = 10
 TAG POS=1 TYPE=BUTTON ATTR=ID:reload
